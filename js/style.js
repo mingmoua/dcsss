@@ -1,0 +1,21 @@
+$(document).ready(function(){
+  $(".xk1").click(function(){
+    $(".xk1-inp").css("display","block");
+  });
+  $(".xk1-close").click(function(){
+    $(".xk1-inp").css("display","none");
+  });
+  $(".xal-li").click(function(){
+    $(".nr1").css("display","block");
+    $(".nr2").css("display","none");
+    $(this).css("background","grey");
+     $(".hn-li").css("background","#f6f6f6");
+    
+  });
+   $(".hn-li").click(function(){
+    $(".nr2").css("display","block");
+    $(".nr1").css("display","none");
+    $(this).css("background","grey");
+     $(".xal-li").css("background","#f6f6f6");
+  });
+});
